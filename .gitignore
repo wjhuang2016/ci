@@ -17,5 +17,5 @@
 .idea/
 lib/
 .DS_Store
-
+venv/
 *.iml

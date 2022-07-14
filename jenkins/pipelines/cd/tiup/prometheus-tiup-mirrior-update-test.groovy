@@ -38,7 +38,7 @@ def download = { version, os, arch ->
         """
     }else {
         sh """
-        wget -qnc https://download.pingcap.org/prometheus-${version}.${os}-${arch}.tar.gz
+        wget -qnc https://fileserver.pingcap.net/download/builds/pingcap/ee/prometheus-${version}.${os}-${arch}.tar.gz
         """
     }
 
